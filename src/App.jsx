@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Search from './components/Search.jsx';
 
 function App() {
 
   return (
     <div className="App">
-      Hello World
+      <Search />
     </div>
   )
 }
